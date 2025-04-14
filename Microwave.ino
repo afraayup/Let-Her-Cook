@@ -1,9 +1,10 @@
-#include <YouveBeenNotified.h> 
-#include <Servo.h>
+#include <YouveBeenNotified.h>  // Handles servo keyframe animations
+#include <Servo.h> // Standard Servo library
+#include "RTC.h"  // Real Time Clock
+#include "ArduinoGraphics.h" // Required for text rendering
+#include "Arduino_LED_Matrix.h" // For LED matrix display
 
-#include "RTC.h"
-#include "ArduinoGraphics.h"
-#include "Arduino_LED_Matrix.h"
+// Servo + Animation
 
 // --- Servo + Notifier Setup ---
 Servo drum;
